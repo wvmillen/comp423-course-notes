@@ -35,6 +35,11 @@ git init
     git add README.md
     git commit -m "Inital commit with README.md"
 ```
+#### Create a Github repository
+1. Log into your github account and create a new repository with the name as **rust-intro**.
+2. Do not Intialize the README.md, we will create this later
+3. Click `Create Repository`
+
 #### Link your repository to Github
 1. Add repository as a remote, replacing `<your-username>` as your Github username.
 ```{.yaml .copy}
@@ -174,5 +179,12 @@ cargo run
 It will simply output `Hello, world!`. Notice we don't have to build and then run, it is all done in 1 step!
 
 ## The End
-Congrationlations! The output should be `Hello, world!`. You have just set up a devcontainer in Rust and ran your own program! 
+Congrationlations! The output should be `Hello, world!`. You have just set up a devcontainer in Rust and ran your own program!
+
+Push your changes to github with:
+```{.yaml .copy}
+git add -A
+git commit -m "Rust Setup Complete"
+git push origin
+```
 
