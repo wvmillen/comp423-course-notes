@@ -64,7 +64,7 @@ We will be using cargo, a package manager for rust similar to pip for python or 
 ### Step 1: Let's do some container configuration!
 1. In VS Code, open the rust-intro directory. This can via: File > Open Folder
 2. Install Dev Containers extension in VS Code
-3. create a ```.devcontainer``` directory in the root of your project which is the `rust-intro` directory we just made
+3. Create a ```.devcontainer``` directory in the root of your project which is the `rust-intro` directory we just made
 ```{.yaml .copy}
 mkdir .devcontainer
 ```
@@ -179,6 +179,13 @@ With `cargo run` we can compile and run all in 1 step! Let's check it out.
 cargo run
 ```
 It will simply output `Hello, world!`. Notice we don't have to build and then run, it is all done in 1 step!
+### Pushing to GitHub
+You can now push your Hello World program from your local repository to your remote one on GitHub!
+``` bash
+git add .
+git commit -m "Wrote Hello World in Rust"
+git push origin main
+```
 
 ## The End
 Congrationlations! The output should be `Hello, world!`. You have just set up a devcontainer in Rust and ran your own program!
