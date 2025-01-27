@@ -14,6 +14,8 @@
 
 4. **Command Line Basics:** Read [here](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Command_line) for more information on the basics
 
+5. **Dev Containers Extension for VS Code:** More Info [Here](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+
 ## Creating a new Dev Container in Rust
 
 ### Starting off
